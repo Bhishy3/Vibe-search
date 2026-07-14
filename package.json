@@ -1,11 +1,33 @@
 {
-  "name": "antigravity-gecko-browser",
+  "name": "vibe-search",
   "version": "1.0.0",
-  "description": "Secure AI Browser powered by custom Gecko profile bundling",
+  "description": "AI-first secure browser built on Mozilla Gecko with hardened privacy profile and built-in AI Copilot",
   "main": "launcher.js",
   "scripts": {
     "start": "node launcher.js"
   },
-  "author": "Antigravity Dev Team",
-  "license": "MPL-2.0"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Bhishy3/Vibe-search.git"
+  },
+  "keywords": [
+    "browser",
+    "gecko",
+    "firefox",
+    "ai",
+    "privacy",
+    "security",
+    "webextension",
+    "copilot",
+    "anti-fingerprinting"
+  ],
+  "author": "Bhishy3",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/Bhishy3/Vibe-search/issues"
+  },
+  "homepage": "https://github.com/Bhishy3/Vibe-search#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  }
 }
