@@ -1,0 +1,78 @@
+/* Custom userChrome.css for Antigravity AI Gecko Browser */
+
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+/* 1. Hide the horizontal tab bar at the top */
+#TabsToolbar {
+  visibility: collapse !important;
+}
+
+/* 2. Hide window titlebar text if any */
+#titlebar {
+  appearance: none !important;
+  height: 0px !important;
+}
+
+/* 3. Style the Navigation/Address Bar toolbar */
+#nav-bar {
+  background-color: #11141a !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08) !important;
+  padding-top: 4px !important;
+  padding-bottom: 4px !important;
+  box-shadow: none !important;
+}
+
+/* Rounded address input styling */
+#urlbar-input-container {
+  background-color: #1b1e25 !important;
+  border: 1px solid rgba(255, 255, 255, 0.08) !important;
+  border-radius: 8px !important;
+  color: #f3f4f6 !important;
+}
+
+#urlbar-background {
+  background-color: #1b1e25 !important;
+  border: none !important;
+  box-shadow: none !important;
+  border-radius: 8px !important;
+}
+
+#urlbar[focused="true"] #urlbar-background {
+  border: 1px solid #8b5cf6 !important;
+  box-shadow: 0 0 10px rgba(139, 92, 246, 0.2) !important;
+}
+
+/* Make toolbar buttons sleek and modern */
+.toolbarbutton-1 {
+  fill: #f3f4f6 !important;
+  color: #f3f4f6 !important;
+  border-radius: 6px !important;
+  transition: background-color 0.2s !important;
+}
+
+.toolbarbutton-1:hover {
+  background-color: rgba(255, 255, 255, 0.08) !important;
+}
+
+/* 4. Sidebar customization */
+#sidebar-box {
+  background-color: #11141a !important;
+  border-right: 1px solid rgba(255, 255, 255, 0.08) !important;
+  --sidebar-background-color: #11141a !important;
+}
+
+/* Hide default Firefox sidebar header to make it merge with the page */
+#sidebar-header {
+  background-color: #11141a !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08) !important;
+  color: #f3f4f6 !important;
+  font-weight: 700 !important;
+  font-size: 13px !important;
+  padding: 12px !important;
+}
+
+#sidebar-splitter {
+  width: 1px !important;
+  background-color: rgba(255, 255, 255, 0.08) !important;
+  border: none !important;
+}

@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Antigravity AI Browser Copilot",
+  "version": "1.0",
+  "description": "AI Assistant Sidebar for the Antigravity Gecko Browser",
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "storage",
+    "<all_urls>"
+  ],
+  "sidebar_action": {
+    "default_title": "Antigravity AI",
+    "default_panel": "sidebar.html"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  }
+}

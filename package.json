@@ -1,0 +1,11 @@
+{
+  "name": "antigravity-gecko-browser",
+  "version": "1.0.0",
+  "description": "Secure AI Browser powered by custom Gecko profile bundling",
+  "main": "launcher.js",
+  "scripts": {
+    "start": "node launcher.js"
+  },
+  "author": "Antigravity Dev Team",
+  "license": "MPL-2.0"
+}

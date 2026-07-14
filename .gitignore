@@ -1,0 +1,24 @@
+# Logs and system files
+*.log
+.DS_Store
+
+# Node modules
+node_modules/
+
+# Firefox profile runtime/lock files
+profile/lock
+profile/parent.lock
+profile/sessionstore-backups/
+profile/cookies.sqlite-wal
+profile/cookies.sqlite-shm
+profile/places.sqlite-wal
+profile/places.sqlite-shm
+profile/webappsstore.sqlite-wal
+profile/webappsstore.sqlite-shm
+profile/storage/
+profile/startupCache/
+profile/gmp-gmpopenh264/
+profile/addonStartup.json.lz4
+profile/compatibility.ini
+profile/extensions.json
+profile/xulstore.json
