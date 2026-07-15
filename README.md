@@ -27,7 +27,7 @@
 </div>
 
 ---
-
+# Attention this Repo has been 100% AI develloped anything here is completely made in Antigravity IDE
 ## 🚀 What is Vibe Search?
 
 **Vibe Search** is a next-generation, AI-powered web browser built on Mozilla's **Gecko engine** — the same battle-tested rendering engine behind Firefox. Unlike traditional browsers that bolt AI onto the side, Vibe Search treats artificial intelligence as a **core system component** that can observe, analyze, and act on web content in real-time.
@@ -281,7 +281,7 @@ Vibe Search stands on the shoulders of giants:
 
 <img src="assets/logo.png" alt="Vibe Search" width="48"/>
 
-**Built with 💜 by [Bhishy3](https://github.com/Bhishy3)**
+**Built with 💜 by gemini 3.5 flash medium
 
 *Browse the web like it was designed for you.*
 
